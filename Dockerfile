@@ -1,4 +1,4 @@
-FROM rust:alpine
+FROM rust:1.73-alpine
 
 COPY build.sh mimalloc.diff /tmp/
 
