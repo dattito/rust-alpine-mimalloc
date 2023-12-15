@@ -1,4 +1,4 @@
-FROM rust:1.73.0-alpine
+FROM rust:1.74.1-alpine
 
 ARG TARGETARCH
 
