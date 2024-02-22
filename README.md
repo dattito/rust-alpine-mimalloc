@@ -11,3 +11,8 @@ Supported & tested archs: `amd64` and `arm64v8`.
 
 For more details, see this [blog
 post](https://www.tweag.io/blog/2023-08-10-rust-static-link-with-mimalloc).
+
+## Template
+
+For my projects, most of the times I use a Dockerfile that looks like the on defined in `Dockerfile.template`.
+Just change the `RUST_VERSION` and `BINARY_NAME` argument and you should get the smallest image possible :).
